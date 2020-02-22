@@ -1,0 +1,70 @@
+
+
+
+body{
+    background-image: url("bg.jpg");
+    
+ }
+ 
+.main
+{   position: relative;
+    height: 100px;
+    background-image: url("bg-header.jpg");
+}
+.a{
+    position: relative;
+    left: 200px;
+
+}
+.a1
+{    position: relative;
+    left: 600px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px ;
+}
+.a2
+{
+    position: absolute;
+    top: 0px;
+}
+#img1
+{
+    position: absolute;
+    left: 122px;
+    top: 142px;
+}
+#h1
+{
+    position: absolute;
+    left: 480px;
+    top: 142px;
+}
+#h2
+{
+    position: relative;
+    left: 720px;
+    top: 142px;
+}
+.m2
+{
+    position: relative;
+    top: 470px;
+}
+#hr1
+{
+    margin-left: 180px;
+    width: 1000px;
+}
+.m3
+{
+    display: grid;
+    margin-left: 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.l1{
+    position: absolute;
+    background-color: rgb(78, 72, 72);
+    width: 100%;
+    height: 50px;
+    top: 980px;
+}
